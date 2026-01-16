@@ -17,9 +17,7 @@ app.get('/login' , (req , res)=>{
 app .get('/_parthkesath_ ' , (req , res) =>{
     res.send("bhai ki id he")
 })
-app .get('/_parthkesath_ ' , (req , res) =>{
-    res.send("bhai ki id he")
-})
+
 
 app.listen(process.env.PORT , () => {
   console.log(`Example app listening on port ${port}`)
