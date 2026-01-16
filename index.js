@@ -14,6 +14,9 @@ app.get('/instagram' , (req , res)=>{
 app.get('/login' , (req , res)=>{
     res.send('<h1>LOGIN KAR LE LADLEEE</h1>')
 })
+app .get('/_parthkesath_ ' , (req , res) =>{
+    res.send("bhai ki id he")
+})
 
 app.listen(process.env.PORT , () => {
   console.log(`Example app listening on port ${port}`)
